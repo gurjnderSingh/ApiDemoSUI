@@ -9,8 +9,8 @@ import SwiftUI
 
 struct UserGridView: View {
     
-    private var gridItems = [GridItem(.flexible()), GridItem(.flexible())]
-    @ObservedObject var viewModel = UserViewModel()
+    private var gridItems = [GridItem(.flexible()), GridItem(.flexible())] // Columns
+    @StateObject var viewModel = UserViewModel()
     
     var body: some View {
         NavigationView {
