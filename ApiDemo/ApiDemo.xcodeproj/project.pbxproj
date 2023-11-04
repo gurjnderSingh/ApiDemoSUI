@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18508B822AF6594A0069F5A6 /* InfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18508B812AF6594A0069F5A6 /* InfoModel.swift */; };
+		18508B862AF6599C0069F5A6 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18508B852AF6599C0069F5A6 /* UserViewModel.swift */; };
+		18508B892AF65B3E0069F5A6 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18508B882AF65B3E0069F5A6 /* UserCell.swift */; };
+		18508B8B2AF66AB80069F5A6 /* UserGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18508B8A2AF66AB80069F5A6 /* UserGridView.swift */; };
+		18508B8D2AF66CCA0069F5A6 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18508B8C2AF66CCA0069F5A6 /* UserDetailView.swift */; };
 		187315552AF559FF0029D238 /* ApiDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187315542AF559FF0029D238 /* ApiDemoApp.swift */; };
 		187315572AF559FF0029D238 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187315562AF559FF0029D238 /* ContentView.swift */; };
 		187315592AF55A010029D238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187315582AF55A010029D238 /* Assets.xcassets */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18508B812AF6594A0069F5A6 /* InfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoModel.swift; sourceTree = "<group>"; };
+		18508B852AF6599C0069F5A6 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		18508B882AF65B3E0069F5A6 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		18508B8A2AF66AB80069F5A6 /* UserGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGridView.swift; sourceTree = "<group>"; };
+		18508B8C2AF66CCA0069F5A6 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
 		187315512AF559FF0029D238 /* ApiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187315542AF559FF0029D238 /* ApiDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiDemoApp.swift; sourceTree = "<group>"; };
 		187315562AF559FF0029D238 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +44,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18508B832AF6594D0069F5A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18508B812AF6594A0069F5A6 /* InfoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18508B842AF659680069F5A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18508B852AF6599C0069F5A6 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18508B872AF65B310069F5A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18508B882AF65B3E0069F5A6 /* UserCell.swift */,
+				18508B8A2AF66AB80069F5A6 /* UserGridView.swift */,
+				18508B8C2AF66CCA0069F5A6 /* UserDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		187315482AF559FF0029D238 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +89,9 @@
 		187315532AF559FF0029D238 /* ApiDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18508B872AF65B310069F5A6 /* View */,
+				18508B842AF659680069F5A6 /* ViewModel */,
+				18508B832AF6594D0069F5A6 /* Model */,
 				187315542AF559FF0029D238 /* ApiDemoApp.swift */,
 				187315562AF559FF0029D238 /* ContentView.swift */,
 				187315582AF55A010029D238 /* Assets.xcassets */,
@@ -146,7 +185,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				187315572AF559FF0029D238 /* ContentView.swift in Sources */,
+				18508B862AF6599C0069F5A6 /* UserViewModel.swift in Sources */,
 				187315552AF559FF0029D238 /* ApiDemoApp.swift in Sources */,
+				18508B892AF65B3E0069F5A6 /* UserCell.swift in Sources */,
+				18508B8D2AF66CCA0069F5A6 /* UserDetailView.swift in Sources */,
+				18508B822AF6594A0069F5A6 /* InfoModel.swift in Sources */,
+				18508B8B2AF66AB80069F5A6 /* UserGridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
